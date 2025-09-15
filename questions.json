@@ -1,0 +1,22 @@
+[
+  {
+    "q": "Who is traditionally credited as the mythical founder of the Yoruba people and the first ruler of Ile-Ife?",
+    "choices": [
+      "Bayajida",
+      "Oduduwa",
+      "Eweka I",
+      "Eri"
+    ],
+    "answer": "B"
+  },
+  {
+    "q": "Which empire is associated with the title 'Alaafin' as its ruler?",
+    "choices": [
+      "Benin Empire",
+      "Kanem-Bornu Empire",
+      "Oyo Empire",
+      "Nupe Kingdom"
+    ],
+    "answer": "C"
+  }
+]

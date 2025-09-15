@@ -1,0 +1,20 @@
+*{box-sizing:border-box;font-family:Inter, system-ui, Arial, sans-serif}
+body{background:#f4f7fb;color:#111;margin:0;padding:20px}
+.container{max-width:820px;margin:0 auto}
+.card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.08);}
+.hidden{display:none}
+h1{margin-top:0;font-size:22px}
+.question{font-weight:600;margin:12px 0}
+.choices{display:flex;flex-direction:column;gap:8px}
+.choice{padding:10px;border-radius:8px;border:1px solid #ddd;cursor:pointer}
+.choice.selected{background:#e6f0ff;border-color:#7aa7ff}
+.nav{display:flex;justify-content:space-between;margin-top:12px}
+.navbtn, .submit, button{padding:10px 14px;border-radius:8px;border:0;background:#2b6cff;color:#fff;cursor:pointer}
+.navbtn[disabled]{opacity:0.5;background:#9fb4ff;cursor:not-allowed}
+.submitArea{margin-top:12px}
+#answerReview{margin-top:12px}
+.correct{background:#e6ffea;border-color:#44c37d;padding:8px;border-radius:6px;margin-bottom:6px}
+.incorrect{background:#fff1f1;border-color:#ff6b6b;padding:8px;border-radius:6px;margin-bottom:6px}
+.timer{font-size:18px;font-weight:700;margin-bottom:10px}
+.timer.warning{color:#c00;animation:blink 1s step-start infinite}
+@keyframes blink{50%{opacity:0.4}}

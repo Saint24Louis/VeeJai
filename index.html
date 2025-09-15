@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GST112: Nigerian Peoples & Culture — Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>GST112 — Nigerian Peoples & Culture</h1>
+  <div id="quiz-app">
+    <div id="intro" class="card">
+      <p>This quiz shows <strong>40 random questions</strong> (one at a time). You have <strong>35 minutes</strong> (counting faster).</p>
+      <button id="startBtn">Start Quiz</button>
+    </div>
+
+    <div id="questionCard" class="card hidden">
+      <div id="timer" class="timer">35:00</div>
+      <div id="progress">Question <span id="qnum">1</span> / <span id="total">40</span></div>
+      <div id="questionText" class="question"></div>
+      <div id="choices" class="choices"></div>
+      <div class="nav">
+        <button id="prevBtn" class="navbtn">Previous</button>
+        <button id="nextBtn" class="navbtn">Next</button>
+      </div>
+      <div class="submitArea hidden">
+        <button id="submitBtn" class="submit">Submit Quiz</button>
+      </div>
+    </div>
+
+    <div id="resultCard" class="card hidden">
+      <h2>Results</h2>
+      <p id="resultText"></p>
+      <div id="answerReview"></div>
+      <button id="retakeBtn">Retake (new random 40)</button>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
